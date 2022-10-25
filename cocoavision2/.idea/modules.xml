@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cocoa-vision.iml" filepath="$PROJECT_DIR$/.idea/modules/cocoa-vision.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/cocoa-vision.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/cocoa-vision.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/cocoa-vision.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/cocoa-vision.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/cocoa-vision.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/cocoa-vision.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/cocoa-vision.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/cocoa-vision.app.unitTest.iml" />
+    </modules>
+  </component>
+</project>
