@@ -28,6 +28,10 @@
       </list>
     </option>
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/app/src/main/res/xml/backup_rules.xml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/app/src/main/res/xml/data_extraction_rules.xml" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="ProjectId" id="2F3WusjBIK3t6GJNJ1BKmFlosLg" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />

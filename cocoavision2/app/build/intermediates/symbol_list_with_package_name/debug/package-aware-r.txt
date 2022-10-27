@@ -2541,8 +2541,6 @@ id clip_vertical
 id clockwise
 id collapseActionView
 id compress
-id confidence
-id confidencesText
 id confirm_button
 id container
 id content
