@@ -29,8 +29,8 @@ public class MainActivity extends AppCompatActivity {
     Button camera, gallery; // Sirve para declarar los botones
     ImageView imageView; // Sirve para declarar la imagen
     TextView result; // Sirve para declarar los textos
-    int imageSize1 = 316; // Tamaño de la imagen
-    int imageSize2 = 212; // Tamaño de la imagen
+    int imageSize1 = 416; // Tamaño de la imagen
+    int imageSize2 = 312; // Tamaño de la imagen
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -78,7 +78,7 @@ public class MainActivity extends AppCompatActivity {
             Model model = Model.newInstance(getApplicationContext()); // Crea un modelo de la red neuronal y lo asigna a la variable model
 
             // Crea un tensor de entrada para la red neuronal y lo asigna a la variable inputFeature0
-            TensorBuffer inputFeature0 = TensorBuffer.createFixedSize(new int[]{1, 316, 212, 3}, DataType.FLOAT32);
+            TensorBuffer inputFeature0 = TensorBuffer.createFixedSize(new int[]{1, 416, 312, 3}, DataType.FLOAT32);
             // Crea un buffer de bytes para la imagen y lo asigna a la variable byteBuffer
             ByteBuffer byteBuffer = ByteBuffer.allocateDirect(4 * imageSize1 * imageSize2 * 3);
             // Asigna el orden de los bytes a la variable byteBuffer
